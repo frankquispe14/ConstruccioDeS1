@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package prctico;
+package semana1.practico;
 
 import java.util.Scanner;
 

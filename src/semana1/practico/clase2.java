@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package prctico;
+package semana1.practico;
 
 import java.util.Scanner;
 
@@ -11,13 +11,21 @@ import java.util.Scanner;
  *
  * @author FRANKLIN
  */
-public class clase1 {
+public class clase2 {
+
+
+    
     public static void main (String[] args) {
-       
     Scanner entrada  = new Scanner (System.in);
-    System.out.println("HOLA, INGRESE SU NOMBRE ");
-    String NOMBRE;
-    NOMBRE=entrada.nextLine();
-   
-    System.out.println("HOLA "+NOMBRE+" TE DAMOS LA BIENVENIDA");
-}}
+    float num1,num2,suma;
+    System.out.println("INGRESE NUMERO1");
+    num1=entrada.nextFloat();
+    System.out.println("INGRESE NUMERO2");
+    num2=entrada.nextFloat();
+    
+    suma=num1+num2;
+    
+    System.out.println("la suma es:"+suma);
+    }
+    
+}

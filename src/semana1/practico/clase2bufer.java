@@ -3,30 +3,29 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package prctico;
+package semana1.practico;
+import java.io.*;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 
 /**
  *
  * @author FRANKLIN
  */
-public class clase1bufer {
+public class clase2bufer {
 
+  
     public static void main(String[] args) throws IOException
     {
         //Notar que readLine() nos obliga a declarar IOException
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); //Ya tenemos el "lector"
-
-        System.out.println("Por favor ingrese su nombre");//Se pide un dato al usuario
-
-        String nombre = br.readLine(); //Se lee el nombre con readLine() que retorna un String con el dato
-
+    int s1,s2,suma;
+          System.out.print("ingrese el primer numero a sumar  :\n");
+          s1 = Integer.parseInt(br.readLine());
+         System.out.print("ingrese el segundo numero a sumar :\n ");
+          s2 = Integer.parseInt(br.readLine());
+          suma=s1+s2;
+         System.out.println ("La suma es:  " + suma);
         
-        System.out.println("HOLA " + nombre+ " TE DAMOS LA BIENVENIDA");
-         System.out.println();
     }
-}  
+} 
 
