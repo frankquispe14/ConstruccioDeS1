@@ -16,7 +16,7 @@ public class Alumno {
     private String nombre;
     private int edad;
     
- /*   public void cargaDatos() {
+ /*  public void cargaDatos() {
         Scanner entrada =new Scanner(System.in);
         System.out.print("Ingrese nombre:");
         nombre=entrada.next();
@@ -37,7 +37,7 @@ public class Alumno {
     }
     }
     public static void main(String[] ar) {
-        Persona persona1;
+        Persona  persona1;
         persona1=new Persona();
         persona1.cargaDatos();
         persona1.imprimir();

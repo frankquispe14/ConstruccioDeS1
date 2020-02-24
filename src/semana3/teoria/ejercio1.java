@@ -36,6 +36,22 @@ abstract class perro extends canino{
 //se crea classes abstractas para comportarse como super clasees
 abstract public class ejercio1 {
    public static void main(String [] args){
-       canino p1=new canino();
+       canino p1=new canino() {
+
+           @Override
+           void comer() {
+               throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+           }
+
+           @Override
+           void dormir() {
+               throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+           }
+
+           @Override
+           void caminar() {
+               throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+           }
+       };
    }
 }

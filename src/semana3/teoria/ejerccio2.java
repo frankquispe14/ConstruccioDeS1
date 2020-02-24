@@ -9,16 +9,4 @@ package semana3.teoria;
  *
  * @author FRANKLIN
  */
-abstract clas verdura{
-int x;
-int y;
-void suma (){
 
-}
-int resta(){
-return x+y;
-}
-}
-public class ejerccio2 {
-    
-}
